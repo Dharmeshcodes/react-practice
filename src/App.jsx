@@ -5,17 +5,19 @@ import viteLogo from './assets/vite.svg'
 import './App.css'
 import React from "react"
 import { createContext } from 'react'
-
-
-
-
-
+import ReactMemo from "./hooks/react-memo"
 
 
  function App(){
 
+  
+
   return(
-    <Parent/>
+    <div>
+      
+      <ReactMemo/>
+     
+    </div>
   )
   }
 export default App
