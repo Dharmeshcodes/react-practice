@@ -95,8 +95,8 @@ function ReactMemo(){
             <button onClick={()=>setCount(count+1)}>increse count</button>
             <Child/>
             <br/>
+
             <h1>memo practical 2 with props </h1>
-    
             {/* <button onClick={()=>setname("joseph")}>click to chnage name </button> */}
             <input
             type="text"
@@ -108,7 +108,7 @@ function ReactMemo(){
 
             <br/>     <br/>
             <h3>practical 3-object passing as props</h3>
-            <p>evry parent render will create new object, so child will rerender beacouseReact.memo compares the object reference </p>
+            <p>evry parent render will create new object, so child will rerender beacouse React.memo compares the object reference </p>
             <Child3 user={user}/>
 
         </div>
